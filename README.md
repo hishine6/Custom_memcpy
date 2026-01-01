@@ -3,3 +3,6 @@
 
 # Make rapper function
 `static inline void custom_memcpy(void *dst, const void *src, size_t len) // In gmem.h`
+
+# Might need option
+`ccflags-y += -fcf-protection=none`
